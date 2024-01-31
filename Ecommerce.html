@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <title>Responsive E-commerce Header</title>
+    <link rel="stylesheet" href="Ecommerce.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="C:\Users\tanse\Downloads\shopping-cart-removebg-preview.png" height="60px" width="60px" alt="E-commerce Logo">
+            </div>
+            
+            <nav>
+                <ul class="good">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="search">
+                <input type="text" placeholder="Search...">
+            </div>
+
+            <div class="cart">
+                <button class="cart-button" onclick="openCart()">Cart <span class="cart-items-count" id="cartCount">0</span></button>
+                <button class="delete-from-cart-btn" onclick="deleteFromCart()">Delete from Cart</button>
+            </div>
+        </div>
+
+    </header>
+    <div id="thank">
+    <div class="carousel-container">
+      <div class="carousel-content">
+          <div class="carousel-item">
+              <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/grocery-sale-retail-or-e-commerce-banner-ad-design-template-67720435bb809be27f46dfb1dd44c6fa_screen.jpg?ts=1606113265" alt="Image 1">
+          </div>
+          <div class="carousel-item">
+              <img src="https://linkusuponline.com/wp-content/uploads/2019/08/e-commerce-banner-1024x341.jpg" alt="Image 2">
+          </div>
+          <div class="carousel-item">
+              <img src="https://mindstacktechnologies.com/wordpress/wp-content/uploads/2018/01/ecommerce-banner.jpg" alt="Image 3">
+          </div>
+          <div class="carousel-item">
+              <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/holidays-special-sale-banner-design-template-30afe39bff9ad07bc598c8ed73c39e03_screen.jpg?ts=1671076405" alt="Image 4">
+          </div>
+          <div class="carousel-item">
+              <img src="https://assets-global.website-files.com/60827ad7fbf1392ecfa1a2a9/6399a01bc3d7458a5e0d7ef9_TBC_AR10_BANNER_V1_RETINA-01.png" alt="Image 5">
+          </div>
+      </div>
+  
+      <div class="carousel-controls">
+          <button class="carousel-btn" onclick="prevSlide()">Previous</button>
+          <button class="carousel-btn" onclick="nextSlide()">Next</button>
+      </div>
+  </div>
+</div>
+
+  
+<div id="you">
+  <div id="Three">
+    <div class="vertical-card">
+        <p><b>Pick the items were you left off....</b></p>
+        <!-- Small Card 1 -->
+        <div class="small-card">
+            <img src="https://m.media-amazon.com/images/I/61l1CHFC-zL.jpg" alt="Image 1">
+        </div>
+    
+        <!-- Small Card 2 -->
+        <div class="small-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/3-Tasten-Maus_Microsoft.jpg" alt="Image 2">
+        </div>
+    
+        <!-- Small Card 3 -->
+        <div class="small-card">
+            <img src="https://www.sahivalue.com/product-images/14+pro+max.jpg/293890000021697778/400x400" alt="Image 3">
+        </div>
+    
+        <!-- Small Card 4 -->
+        <div class="small-card">
+            <img src="https://img0.junaroad.com/uiproducts/18822996/zoom_0-1671341790.jpg" alt="Image 4">
+        </div>
+    </div>
+    
+    <div class="vertical-card">
+        <p><b>Best electronics items for sell....</b></p>
+        <!-- Small Card 1 -->
+        <div class="small-card">
+            <img src="https://tiimg.tistatic.com/fp/1/008/118/a-grade-flat-screen-led-tv-for-home-entertainment-755.jpg" alt="Image 1">
+        </div>
+    
+        <!-- Small Card 2 -->
+        <div class="small-card">
+            <img src="https://m.media-amazon.com/images/I/81A4ul0B6aL._AC_UF1000,1000_QL80_.jpg" alt="Image 2">
+        </div>
+    
+        <!-- Small Card 3 -->
+        <div class="small-card">
+            <img src="https://5.imimg.com/data5/FN/NP/MY-3749516/steam-iron-press.jpg" alt="Image 3">
+        </div>
+    
+        <!-- Small Card 4 -->
+        <div class="small-card">
+            <img src="https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/region/europe/products/waching-machine/fp1014wd0/product-images/fp0814wd0-fp0914wd0-fp1014wd0-front-1.png" alt="Image 4">
+        </div>
+    </div>
+    
+    <div class="vertical-card">
+        <p><b>Much needed kitchen things....</b></p>
+        <!-- Small Card 1 -->
+        <div class="small-card">
+            <img src="https://images.jdmagicbox.com/quickquotes/images_main/printed-melamine-crockery-set-24-2219436569-rkvdim7n.jpg" alt="Image 1">
+        </div>
+    
+        <!-- Small Card 2 -->
+        <div class="small-card">
+            <img src="https://onlymat.com/cdn/shop/files/image_e4618ba1-4078-4abc-b21a-4d72cd61f709_x1200_crop_center.progressive.jpg?v=1683118866" alt="Image 2">
+        </div>
+    
+        <!-- Small Card 3 -->
+        <div class="small-card">
+            <img src="https://homedecorlo.com/cdn/shop/products/51sg5GFfzUL.jpg?v=1624673297" alt="Image 3">
+        </div>
+    
+        <!-- Small Card 4 -->
+        <div class="small-card">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2022/9/GQ/JM/AY/102231995/multipurpose-kitchen-rack.jpeg" alt="Image 4">
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="lion">
+    <div class="tansen-card">
+        <!-- Irregular Card 1 -->
+        <div class="irregular-card" style="height: 150px;">
+            <img src="https://i0.wp.com/digichefs.com/wp-content/uploads/2023/07/1-Blog-Banner-24-July.jpg?fit=1200%2C630&ssl=1" alt="Image 1">
+        </div>
+    
+        <!-- Irregular Card 2 -->
+        <div class="irregular-card" style="height: 200px;">
+            <img src="https://images-platform.99static.com/4p611Ni2-UeFiO7bR2jKA23D_UU=/500x500/top/smart/99designs-contests-attachments/5/5312/attachment_5312993" alt="Image 2">
+            <div class="card-content">
+                <p class="Access">Access this and get exciting rewards.</p>
+            </div>
+        </div>
+    </div>
+</div>
+   
+
+<div id="calculator">
+    <div class="tanmay-carousel">
+      <div class="tanmay-content">
+          <!-- Item 1 -->
+          <div class="tanmay-item">
+              <img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw34d84041/images/Titan/Catalog/1698KM02_1.jpg?sw=800&sh=800" alt="Item 1">
+              <h4>Watch</h4>
+              <button class="add-to-cart-btn" onclick="addToCart('Watch')">Add to Cart</button>
+          </div>
+  
+          <!-- Item 2 -->
+          <div class="tanmay-item">
+              <img src="https://image.made-in-china.com/2f0j00RbdujcgPbYqk/New-Design-Big-Pockets-Cotton-Pants-Summer-Pants-Beach-Pants-Men-Cargo-Shorts-Cargo-Pants.webp" alt="Item 2">
+              <h4>Shorts</h4>
+              <button class="add-to-cart-btn" onclick="addToCart('Shorts')">Add to Cart</button>
+          </div>
+  
+          <!-- Item 3 -->
+          <div class="tanmay-item">
+              <img src="https://img.freepik.com/free-photo/gold-jewellery-table-with-other-gold-jewellery_1340-42836.jpg" alt="Item 3">
+              <h4>Jewellery</h4>
+              <button class="add-to-cart-btn" onclick="addToCart('Jewellery')">Add to Cart</button>
+          </div>
+  
+          <!-- Item 4 -->
+          <div class="tanmay-item">
+              <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/71a00703e8c14c76aa8471445a9eaf40_9366/Ultrabounce_Shoes_Blue_HP5783_HM1.jpg" alt="Item 4">
+              <h4>Shoes</h4>
+              <button class="add-to-cart-btn" onclick="addToCart('Shoes')">Add to Cart</button>
+          </div>
+  
+          <!-- Item 5 -->
+          <div class="tanmay-item">
+              <img src="https://www.jiomart.com/images/product/original/rvrrthct05/bk-dream-women-and-girl-block-heel-sandal-black-product-images-rvrrthct05-0-202207160719.jpg?im=Resize=(500,630)" alt="Item 5">
+              <h4>Sandals</h4>
+              <button class="add-to-cart-btn" onclick="addToCart('Sandles')">Add to Cart</button>
+          </div>
+  
+          <!-- Item 6 -->
+          <div class="tanmay-item">
+              <img src="https://4.imimg.com/data4/RU/VC/MY-11853389/men-s-jackets.jpg" alt="Item 6">
+              <h4>Jackets</h4>
+              <button class="add-to-cart-btn" onclick="addToCart('Jackets')">Add to Cart</button>
+          </div>
+  
+          <!-- Item 7 -->
+          <div class="tanmay-item">
+              <img src="https://images.pexels.com/photos/343720/pexels-photo-343720.jpeg?cs=srgb&dl=pexels-asim-alnamat-343720.jpg&fm=jpg" alt="Item 7">
+              <h4>Sunglasses</h4>
+              <button class="add-to-cart-btn" onclick="addToCart('Sunglasses')">Add to Cart</button>
+          </div>
+  
+          <!-- Item 8 -->
+          <div class="tanmay-item">
+              <img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/IMAGE_1697121780.webp" alt="Item 8">
+              <h4>Perfumes</h4>
+              <button class="add-to-cart-btn" onclick="addToCart('Perfumes')">Add to Cart</button>
+          </div>
+  
+          <!-- Item 9 -->
+          <div class="tanmay-item">
+              <img src="https://images.meesho.com/images/products/142481028/0hhnj_512.webp" alt="Item 9">
+              <h4>Trouser</h4>
+              <button class="add-to-cart-btn" onclick="addToCart('Trousers')">Add to Cart</button>
+          </div>
+  
+          <!-- Item 10 -->
+          <div class="tanmay-item">
+              <img src="https://www.bunaai.com/cdn/shop/products/indianwearonline-9983.jpg?v=1673505559" alt="Item 11">
+              <h4>Lehengaa</h4>
+              <button class="add-to-cart-btn" onclick="addToCart('Lehengaa')">Add to Cart</button>
+          </div>
+  
+          <div class="tanmay-item">
+              <img src="https://www.urbanwardrobe.in/cdn/shop/products/Dress5.jpg?v=1594824968" alt="Item 10">
+              <h4>Kurtis</h4>
+              <button class="add-to-cart-btn" onclick="addToCart('Kurtis')">Add to Cart</button>
+          </div>
+  
+          <div class="tanmay-item">
+              <img src="https://royalanarkali.com/wp-content/uploads/2021/12/womens-party-wear-superb-orange-color-pleating-work-saree.jpg" alt="Item 12">
+              <h4>Sariee</h4>
+              <button class="add-to-cart-btn" onclick="addToCart('Sariee')">Add to Cart</button>
+          </div>
+  
+          <div class="tanmay-item">
+              <img src="https://assets.ajio.com/medias/sys_master/root/20211009/rVC7/61619257aeb2692b85c17b39/-1117Wx1400H-469009835-blue-MODEL.jpg" alt="Item 13">
+              <h4>Jeans</h4>
+              <button class="add-to-cart-btn" onclick="addToCart('Jeans')">Add to Cart</button>
+          </div>
+      </div>
+  
+      <div class="tanmay-controls">
+          <button class="tanmay-btn" onclick="prevSlideTanmay()">Previous</button>
+          <button class="tanmay-btn" onclick="nextSlideTanmay()">Next</button>
+      </div>
+  </div>
+</div>
+
+
+  <div class="siddharth">
+    <br><br>
+    <h3>Choose something you would like to shop...</h3>
+    <div id="carousel-container" class="siddharth-cards-container">
+        <div class="siddharth-card" id="ddd">
+            <img src="https://img.freepik.com/free-photo/cute-little-girl-shopping_624325-3892.jpg" alt="Product 1">
+            <p><b>Kidzz</b><br>
+                <button class="add-to-cart-btn" onclick="addToCart('Kidzz wear')">Add to Cart</button>
+                <br>"Shop 'til you drop, little ones, for in the aisles of imagination. Might consider something playful and imaginative.</p>
+        </div>
+        <div class="siddharth-card" id="ddd">
+            <img src="https://collegebookstore.in/wp-content/uploads/2021/02/online-book-shopping-sites-in-india.jpg" alt="Product 2">
+            <p><b>Books</b><br>
+                <button class="add-to-cart-btn" onclick="addToCart('Books')">Add to Cart</button>
+                <br>"Every book is a journey waiting to be explored. Step into the aisles and let the pages take you on an adventure that lasts a lifetime. </p>
+        </div>
+        <div class="siddharth-card" id="ddd">
+            <img src="https://www.zizacious.com/wp-content/uploads/2021/03/bigstock-Bodybuilder-Protein-Powder-Aft-360702190-min.jpg" alt="Product 3">
+            <p><b>Supplements</b><br>
+                <button class="add-to-cart-btn" onclick="addToCart('Supplements')">Add to Cart</button>
+                <br>Fuel your gains with determination and your body with the right proteins</p>
+        </div>
+        <div class="siddharth-card" id="ddd">
+            <img src="https://media.post.rvohealth.io/wp-content/uploads/2020/08/beauty-skin-care-cosmetics_thumb.jpg" alt="Product 3">
+            <p><b>Cosmetics</b><br>
+                <button class="add-to-cart-btn" onclick="addToCart('Cosmetics')">Add to Cart</button>
+                <br>Indulge in the art of self-expression, where every shade tells a story. In the world of cosmetics</p>
+        </div>
+        <div class="siddharth-card" id="ddd">
+            <img src="https://vaadiherbals.in/cdn/shop/products/Exotic-Floavors---Pack-of-6-Luxurious-Handmade-Herbals-Soaps.jpg?v=1512128588" alt="Product 3">
+            <p><b>Soaps</b><br>
+                <button class="add-to-cart-btn" onclick="addToCart('Soaps')">Add to Cart</button>
+                <br>Exploring the beauty aisles is like stepping into a world of endless possibilities</p>
+        </div>
+    </div>
+</div>
+
+<div class="tansen">
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Contact Us</h4>
+                <p>Email: randomemail@gmail.com</p>
+                <p>Phone: +91 12345678910</p>
+            </div>
+            <div class="footer-column">
+                <h4>Follow Us On</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="Ecommerce.js"></script>
+</body>
+</html>
